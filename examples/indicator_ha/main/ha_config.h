@@ -8,7 +8,7 @@ extern "C" {
 #endif
 
 #define CONFIG_BROKER_URL                        "mqtt://homeassistant.local" /* domain */
-// #define CONFIG_BROKER_URL                        "mqtt://192.168.1.102" /* IP */
+// #define CONFIG_BROKER_URL                        "mqtt://192.168.188.138" /* IP */
 #define CONFIG_MQTT_CLIENT_ID                    "indicator-id"
 #define CONFIG_MQTT_USERNAME                     "indicator-usr"
 #define CONFIG_MQTT_PASSWORD                     "indicator-password"
