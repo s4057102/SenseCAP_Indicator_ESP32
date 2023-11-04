@@ -14,7 +14,7 @@ cd "$IDF_PATH" || exit 1
 
 # Check if the Git repository's release version is 5.0 or 5.0.1
 GIT_VERSION=$(git describe --tags)
-if [[ "$GIT_VERSION" != "v5.0" && "$GIT_VERSION" != "v5.0.1" ]]; then
+if [[ "$GIT_VERSION" != "v5.1" && "$GIT_VERSION" != "v5.0.1" ]]; then
   echo "Error: This script and patch have only been tested with ESP-IDF release version 5.0." >&2
   exit 1
 fi
